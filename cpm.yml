@@ -1,0 +1,7 @@
+prereqs:
+  runtime:
+    requires:
+      perl: { version: 'v5.36' }
+      Dist::Zilla: { version: '6.030' }
+      Moose:
+      namespace::autoclean:

@@ -1,0 +1,55 @@
+{
+   "abstract" : "Get PAUSE credentials from environment variables",
+   "author" : [
+      "Shoichi Kaji <skaji@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.030, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Dist-Zilla-Plugin-UploadToCPAN-CredentialsFromEnv",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dist::Zilla" : "6.030",
+            "Moose" : "0",
+            "namespace::autoclean" : "0",
+            "perl" : "v5.36.0"
+         }
+      }
+   },
+   "provides" : {
+      "Dist::Zilla::Plugin::UploadToCPAN::CredentialsFromEnv" : {
+         "file" : "lib/Dist/Zilla/Plugin/UploadToCPAN/CredentialsFromEnv.pm",
+         "version" : "v0.0.1"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/skaji/Dist-Zilla-Plugin-UploadToCPAN-CredentialsFromEnv/issues"
+      },
+      "homepage" : "https://github.com/skaji/Dist-Zilla-Plugin-UploadToCPAN-CredentialsFromEnv",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/skaji/Dist-Zilla-Plugin-UploadToCPAN-CredentialsFromEnv.git",
+         "web" : "https://github.com/skaji/Dist-Zilla-Plugin-UploadToCPAN-CredentialsFromEnv"
+      }
+   },
+   "version" : "v0.0.1",
+   "x_generated_by_perl" : "v5.36.0",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.32",
+   "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later",
+   "x_static_install" : 1
+}
+
