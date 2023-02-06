@@ -35,6 +35,9 @@ Dist::Zilla::Plugin::UploadToCPAN::CredentialsFromEnv - Get PAUSE credentials fr
 
   ❯ PAUSE_USERNAME=skaji PAUSE_PASSWORD=xxxxxxxx dzil release
 
+  # if you use 1password
+  ❯ env PAUSE_USERNAME=op://Personal/pause/username PAUSE_PASSWORD=op://Personal/pause/password op run -- dzil release
+
 =head1 DESCRIPTION
 
 Dist::Zilla::Plugin::UploadToCPAN::CredentialsFromEnv is a subclass of
